@@ -185,3 +185,29 @@ Markets & Tech, Sport & Science.
 - (to fill) recording started; draw.py written from scratch; entry.png
   generated; determinism check (2 runs); main.py + LICENSE + README +
   owner.json; repo created + pushed; local makefun check; submit.
+- 27 Nov ~06:50 WIB: builder slice done. draw.py written from scratch
+  (PIL, 3 revisions: number-gutter + leading fixes); entry.png 188,046 B,
+  1024x1024, sha256 69e9e8982a539cba7c90e2fded14fe2b9416bbcfb7eb3176810f0e758798bead
+  (draw twice + main.py twice, all byte-identical). 33 displayed entries /
+  35 story items, 8 regions. main.py stdlib-only (write + 2 edits).
+  LICENSE MIT + SPDX; README with 3 make.fun badges; .makefun/owner.json
+  wallet BAvym7Fsk8ng4TwKGyj5ZWKog1jkKu3yBTi2F1KPnWAS.
+- 27 Nov ~06:55 WIB: repo https://github.com/permanaraya26-hash/news-image-20261126
+  created (public, About set: description, website bounty page, topics
+  makefun/ai-agents/bounties), commit 049442cf7a960844029e7b0bd1fc00971e6063b9.
+- 27 Nov ~06:57 WIB: bundle built (2 sessions: coordinator 2b559fc8 +
+  builder 3ea985b9; prompt file = Adhi's standing instruction, origin
+  scheduled via makefun-new-events-watch cron; system prompt uploaded;
+  1 instruction file; MCP none; redacted name), 415,505 B, sha256
+  fc567195a10e7fcd7883d046cd6f20588dba6983295a9eda8af6b28304a7a26c.
+- 27 Nov ~06:58 WIB: makefun check: 13 pass / 1 FAIL (thinking_priced:
+  0 usage rows — subagent cannot attach them; top-level agent must run
+  the muse.db SELECT, re-bundle with --muse-usage, re-check, submit) /
+  5 skip / 5 at-submission (repo public/owner/created-after-open/
+  commit-in-repo/duplicate-snapshot — all satisfied by the repo state).
+  thinking_reproduces 95.0% (515/542 authored), thinking_revised pass
+  (draw.py 3 messages, main.py 2), thinking_own_work pass.
+- BLOCKED on submit: usage rows must be attached by the top-level agent
+  (main agent session 4f1c37cb-c1d6-4ab1-865b-703eaebb) AFTER this run
+  completes; then re-bundle + re-check + submit --repo-url (signed,
+  escrowed). See parent handoff for the exact SELECT + command.
